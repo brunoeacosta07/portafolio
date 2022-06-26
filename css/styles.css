@@ -355,7 +355,7 @@ body{
 
 .nav__link{
   color: var(--color-blanco-link);
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-transform: uppercase;
   text-decoration: none;
   transition: all 400ms ease-in-out;
@@ -404,7 +404,7 @@ body{
   margin: 2rem 0;
   padding: 1.5rem;
   text-align: center;
-  font-size: 2.9rem;
+  font-size: 2rem;
   font-weight: bold;
   background: linear-gradient(to right, var(--color-dorado), var(--color-dorado-claro));
   background-clip: text;
@@ -1045,6 +1045,8 @@ body{
 }
 
 
+/*Media querys*/
+
 @media only screen and (min-width: 560px){
   .contacto-correo__container{
     width: 360px;
@@ -1073,6 +1075,7 @@ body{
 
   .titulo-section{
     margin: 0.8rem 0;
+    font-size: 2.5rem;
   }
   .sobre-mi{
     flex-direction: row;
@@ -1096,9 +1099,6 @@ body{
     justify-content: flex-start;
   }
 
-  .titulo-section{
-    font-size: 3.5rem;
-  }
 
   .formacion-container{
     justify-content: flex-start;
