@@ -24,15 +24,6 @@ function ocultar_menu(){
   btn_burger.classList.remove('active');
 }
 
-// btn_ver_mas.addEventListener('click', () =>{
-//   face_front.style.transform ='rotateY(180deg);';
-//   face_back.style.transform ='rotateY(360deg);';
-// });
-
-// btn_cerrar.addEventListener('click', () =>{
-//   face_front.style.transform = 'rotateY(180deg);';
-//   face_back.style.transform = 'rotateY(360deg);';
-// });
 
 window.addEventListener('scroll', function(){
   let posicion_hard = hard_skills.getBoundingClientRect().top;
